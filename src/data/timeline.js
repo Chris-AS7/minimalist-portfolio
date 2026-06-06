@@ -4,41 +4,41 @@ export default [
     title: 'Attending Maestro College:',
     duration: '2 years -',
     details:
-      'I am currently in college to earn an Associatea degree in Ai Engineering with a SMART goal to land a technology position where I can apply Ai integration skills by Fall 2027.',
+      'Earning an Associatea degree in AI Engineering. Graduation Fall 2027.',
   },
   {
-    year: '2023=2025',
+    year: '2023 - 2025',
     title: 'Web Developer:',
     duration: '3 years -',
     details:
-      'The advancements in technology are inspiring and peaked my intellectual interest, so I achieved a personal SMART goal to: Successfully enter the technology field by earning a Full Stack Web Developer Certificate and several others from "Zero to Mastery along with several others."',
+      'The advancements in technology are inspiring and peaked my intellectual interest, so I achieved a personal SMART goal to: Successfully enter the technology field by earning a Full Stack Web Developer Certificate from Zero to Mastery along with other certificates.',
   },
   {
-    year: '2020-2023',
+    year: '2020 - 2023',
     title: 'Business Owner/Mobile Mechanic:',
     duration: '4 years -',
     details:
-      'Repair King- Automotive mechanic business. Independent Contractor for "Your Mechanic- Mobile automotive mechanic."',
+      'Repair King - Automotive mechanic business. Independent Contractor for Your Mechanic Mobile automotive mechanic.',
   },
 
   {
-    year: '2014-2019',
+    year: '2014 - 2019',
     title: 'Web Developer:',
     duration: '6 years -',
     details:
-      'Expanding knowledge and implementation of coding and eventually built my first website for an independent musician. Wrote and published an eBook titled "How to make Beats", detailing the technical breakdown of music production."',
+      'Expanding knowledge and implementation of coding and eventually built my first website for an independent musician. Wrote and published an eBook titled "How to make Beats", detailing the technical breakdown of music production.',
   },
 
   {
-    year: '2008-2014',
+    year: '2008 - 2014',
     title: 'Automotive Technician:',
     duration: '6 years -',
     details:
-      'ASE certified technician for dealerships using the latest technology for the automotive sector."',
+      'ASE certified technician for dealerships using the latest technology for the automotive sector.',
   },
 
   {
-    year: '2007-2009',
+    year: '2007 - 2009',
     title: 'Automotive Technician College:',
     duration: '2 years -',
     details:

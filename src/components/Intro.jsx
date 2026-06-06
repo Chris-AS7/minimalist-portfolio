@@ -10,7 +10,7 @@ function Intro() {
         Full Stack Developer 
       </p>
       <p className=" font-inter text-sm max-w-[560px] mb-6 font-bold text-left">
-        An AI Software Engineering student specializing in intelligent AI integrations and full-stack web development. {' '}
+        I am an experienced full stack web developer and a current AI Software Engineering student specializing in intelligent AI integrations. {' '}
         <a>React</a> <a className="text-[#5ad2f7]">JS</a>, Next{' '}
         <a className="text-[#5ad2f7]">JS</a>,{' '}
         <a className="text-yellow-500">Javascript</a>,{' '}

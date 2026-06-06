@@ -3,19 +3,19 @@ export default [
   {
     title: 'Portfolio Website',
     image: 'assets/portfolio.png',
-    stack: ['React', 'Next JS', 'Tailwind'],
+    stack: ['HTML', 'CSS', 'Javascript'],
     link: '',
   },
   {
     title: 'Consultant Website',
     image: 'assets/education.png',
-    stack: ['React', 'Next JS', 'Tailwind'],
+    stack: ['HTML', 'CSS', 'Javascript'],
     link: '',
   },
   {
     title: 'E-commernce Website',
     image: 'assets/artist.png',
-    stack: ['React', 'Next JS', 'Tailwind'],
+    stack: ['Html', 'CSS', 'Javascript'],
     link: '',
   },
 ];
