@@ -11,13 +11,17 @@ function Intro() {
       </p>
       <p className=" font-inter text-sm max-w-[560px] mb-6 font-bold text-left">
         I am an experienced full stack web developer and a current AI Software Engineering student specializing in intelligent AI integrations. {' '}
+        <a className="text-[#FFD438]">Python</a>,{' '}
         <a>React</a> <a className="text-[#5ad2f7]">JS</a>, Next{' '}
         <a className="text-[#5ad2f7]">JS</a>,{' '}
         <a className="text-yellow-500">Javascript</a>,{' '}
         <a className="text-[#d05237]">HTML</a>,{' '}
         <a className="text-[#0471bb]">CSS</a>,{' '}
-        <a className="text-[#38bdf8]">Tailwind</a>, or{' '}
-        <a className="text-[#116149]">MonogoDB</a>. With these technologies and
+        <a className="text-[#38bdf8]">Tailwind</a>, {' '}
+        <a className="text-[#00ab41]">MonogoDB</a>,{' '} and{' '}
+        <a>Node</a> <a className="text-[#5ad2f7]">JS. </a>
+        
+        With these technologies and
         my problem solving solutions, I can build fast single-page application's
         or blazing full-stack web applications.
         <br />
