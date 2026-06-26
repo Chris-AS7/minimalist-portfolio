@@ -4,7 +4,7 @@ export default [
     title: 'Attending Maestro College:',
     duration: '2 years -',
     details:
-      'Earning an Associates degree in AI Engineering. Graduation Fall 2027.',
+      'Earning an Associates degree in AI Engineering. Graduation Dec 2027.',
   },
   {
     year: '2023 - 2025',
