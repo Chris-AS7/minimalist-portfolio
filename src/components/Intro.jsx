@@ -4,7 +4,7 @@ function Intro() {
   return (
     <div className="flex items-center justify-center flex-col text-center pt-20 pb-6">
       <h1 className="text-4xl md:text-7xl mb-1 md:mb-3 font-inter font-semibold">
-        Chris Sanders
+        Christopher Sanders
       </h1>
       <p className="text-base md:text-xl mb-4 font-medium font-inter text-black/85">
         Full Stack Developer 
@@ -12,9 +12,10 @@ function Intro() {
       <p className=" font-inter text-sm max-w-[560px] mb-6 font-bold text-left">
         I am an experienced full stack web developer and a current AI Software Engineering student specializing in intelligent AI integrations. {' '}
         <a className="text-[#FFD438]">Python</a>,{' '}
+        <a className="text-[#FFD438]">TypeScript</a>,{' '}
         <a>React</a> <a className="text-[#5ad2f7]">JS</a>, Next{' '}
         <a className="text-[#5ad2f7]">JS</a>,{' '}
-        <a className="text-yellow-500">Javascript</a>,{' '}
+        <a className="text-yellow-500">JavaScript</a>,{' '}
         <a className="text-[#d05237]">HTML</a>,{' '}
         <a className="text-[#0471bb]">CSS</a>,{' '}
         <a className="text-[#38bdf8]">Tailwind</a>, {' '}

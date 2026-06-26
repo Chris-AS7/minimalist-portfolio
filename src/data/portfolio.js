@@ -9,19 +9,19 @@ export default [
   {
     title: 'Portfolio Website',
     image: 'assets/portfolio.png',
-    stack: ['HTML', 'CSS', 'Javascript'],
-    link: '',
+    stack: ['HTML', 'CSS', 'JavaScript'],
+    link: 'https://www.csdevelops.com/',
   },
   {
     title: 'Consultant Website',
     image: 'assets/education.png',
-    stack: ['HTML', 'CSS', 'Javascript'],
-    link: '',
+    stack: ['HTML', 'CSS', 'JavaScript'],
+    link: 'https://www.drsaranorthern.com/',
   },
   {
     title: 'E-commernce Website',
     image: 'assets/artist.png',
-    stack: ['Html', 'CSS', 'Javascript'],
-    link: '',
+    stack: ['HTML', 'CSS', 'JavaScript'],
+    link: 'https://audibleaaron.com/',
   },
 ];
