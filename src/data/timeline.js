@@ -18,7 +18,7 @@ export default [
     title: 'Web Developer:',
     duration: '3 years -',
     details:
-      'The advancements in technology peaked my intellectual interest, so I achieved a personal SMART goal to: Successfully enter the technology field by earning a Full Stack Web Developer Certificate from Zero to Mastery along with other certificates.',
+      'The advancements in technology peaked my intellectual interest, so I achieved a personal SMART goal to: Successfully re-enter the technology field by earning a Full Stack Web Developer Certificate from Zero to Mastery along with other certificates.',
   },
   {
     year: 'Jul 2020 - Jul 2024',
