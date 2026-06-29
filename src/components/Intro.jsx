@@ -16,10 +16,13 @@ function Intro() {
         <a>React</a> <a className="text-[#5ad2f7]">JS</a>, Next{' '}
         <a className="text-[#5ad2f7]">JS</a>,{' '}
         <a className="text-yellow-500">JavaScript</a>,{' '}
-        <a className="text-[#d05237]">HTML</a>,{' '}
-        <a className="text-[#0471bb]">CSS</a>,{' '}
+        <a className="text-yellow-500">HTML</a>,{' '}
+        <a className="text-[#38bdf8]">CSS</a>,{' '}
         <a className="text-[#38bdf8]">Tailwind</a>, {' '}
-        <a className="text-[#00ab41]">MonogoDB</a>,{' '} and{' '}
+        <a className="text-[#00ab41]">SQL</a>,{' '} 
+        <a className="text-[#00ab41]">PostgressSQL</a>,{' '} 
+        <a>Express</a> <a className="text-[#5ad2f7]">JS </a>
+        and{' '}
         <a>Node</a> <a className="text-[#5ad2f7]">JS. </a>
         
         With these technologies and
