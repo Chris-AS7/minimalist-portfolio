@@ -1,45 +1,38 @@
 export default [
   {
     year: 'Jun 2026 - Present',
-    title: 'Freelance QA & UAT Tester:',
+    title: 'AI Customer Support Agent:',
     duration: '1 month -',
     details:
-      'Detail-oriented QA & UAT Test Specialist with hands on experience evaluating web and mobile applications for global brands.',
+      'Built a fully functional AI chatbot in Python using the Anthropic Claude API, featuring conversation memory, a guardrails layer, and a custom knowledge base in a modular OOP architecture.',
   },
   {
     year: 'Jan 2026 - Present',
     title: 'Attending Maestro College:',
-    duration: '2 years -',
+    duration: '6 months -',
     details:
-      'Earning an Associates degree in AI Software Engineering. Graduation Dec 2027.',
+      'Earning an A.A.S. in AI Software Engineering, GPA 4.0/4.0. Graduation Dec 2027.',
   },
   {
-    year: '2023 - 2025',
-    title: 'Web Developer:',
+    year: 'Aug 2023 - Present',
+    title: 'Software Engineer:',
     duration: '3 years -',
     details:
-      'The advancements in technology peaked my intellectual interest, so I achieved a personal SMART goal to: Successfully re-enter the technology field by earning a Full Stack Web Developer Certificate from Zero to Mastery along with other certificates.',
+      'Self-employed freelance. Designed and delivered full-stack web applications using Python, TypeScript, React.js, and Next.js from requirements through deployment, while executing QA and User Acceptance Testing (UAT) across mobile, web, and digital apps. Certified Full-Stack Developer (Zero to Mastery, Aug 2023).',
   },
   {
     year: 'Jul 2020 - Jul 2024',
     title: 'Business Owner/Mobile Mechanic:',
     duration: '4 years -',
     details:
-      'Repair King LLC - Mobile mechanic business owner and independent contractor .',
-  },
-  {
-    year: 'Aug 2020 - Dec 2023',
-    title: 'Mobile Mechanic:',
-    duration: '3 years 5 mos -',
-    details:
-      'Your Mechanic Inc - I diagnosed and repaired customers vehicles as an indenpendent contractor.',
+      'Repair King LLC & YourMechanic Inc- Mobile mechanic business owner and independent contractor .',
   },
   {
     year: '2014 - 2020',
     title: 'Web Developer:',
-    duration: '7 years -',
+    duration: '6 years -',
     details:
-      'Expanding knowledge and implementation of coding and eventually built my first website for an independent musician. I worked with many clients building my coding experience while improving my customer service skills. ',
+      'Built a website for my first client. I worked with many clients building my coding experience while improving my customer service skills. ',
   },
 
   {

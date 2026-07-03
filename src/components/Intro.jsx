@@ -6,7 +6,7 @@ function Intro() {
       <h1 className="text-4xl md:text-7xl mb-1 md:mb-3 font-inter font-semibold">
         Christopher Sanders
       </h1>
-      <p className="text-base md:text-xl mb-4 font-medium font-inter text-black/85">
+      <p className="text-base md:text-xl mb-4 font-medium font-inter text-black/85 dark:text-white/85">
         Full Stack Developer 
       </p>
       <p className=" font-inter text-sm max-w-[560px] mb-6 font-bold text-left">
