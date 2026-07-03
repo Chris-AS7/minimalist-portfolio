@@ -7,7 +7,7 @@ function Intro() {
         Christopher Sanders
       </h1>
       <p className="text-base md:text-xl mb-4 font-medium font-inter text-black/85 dark:text-white/85">
-        Full Stack Software Engineer 
+        Testing 
       </p>
       <p className=" font-inter text-sm max-w-[560px] mb-6 font-bold text-left">
         I am an experienced full stack software engineer and a current AI Software Engineering student specializing in intelligent AI integrations. {' '}
