@@ -7,10 +7,10 @@ function Intro() {
         Christopher Sanders
       </h1>
       <p className="text-base md:text-xl mb-4 font-medium font-inter text-black/85 dark:text-white/85">
-        Full Stack Software Engineer 
+        Software Engineer 
       </p>
       <p className=" font-inter text-sm max-w-[560px] mb-6 font-bold text-left">
-        I am an experienced full stack web developer and a current AI Software Engineering student specializing in intelligent AI integrations. {' '}
+        I am an experienced full stack software engineer and a current AI Software Engineering student specializing in intelligent AI integrations. {' '}
         <a className="text-[#FFD438]">Python</a>,{' '}
         <a className="text-[#FFD438]">TypeScript</a>,{' '}
         <a>React</a> <a className="text-[#5ad2f7]">JS</a>, Next{' '}
