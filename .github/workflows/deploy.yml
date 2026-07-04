@@ -33,5 +33,5 @@ jobs:
           port: 21
           security: strict
           server-dir: public_html/
-          local-dir: ./dist/
+          local-dir: dist/
           dangerous-clean-slate: false
