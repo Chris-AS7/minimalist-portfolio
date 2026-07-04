@@ -4,7 +4,7 @@ function Intro() {
   return (
     <div className="flex items-center justify-center flex-col text-center pt-20 pb-6">
       <h1 className="text-4xl md:text-7xl mb-1 md:mb-3 font-inter font-semibold">
-        Christopher Sanders
+        Christopher 
       </h1>
       <p className="text-base md:text-xl mb-4 font-medium font-inter text-black/85 dark:text-white/85">
         Full Stack Software Engineer
