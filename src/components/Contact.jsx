@@ -1,35 +1,29 @@
 import React, { useState } from 'react';
 import Title from './Title';
-import { supabase } from '../supabase';
+import { supabase } from './supabase.js';
 
 function Contact() {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: ''
-  });
   const [status, setStatus] = useState('');
 
-  const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
-
-  const handleSubmit = async (e) => {
+  const handleFormSubmit = async (e) => {
     e.preventDefault();
-    setStatus('sending');
+    setStatus('Sending...');
+
+    const formData = new FormData(e.target);
+    const { name, email, message } = Object.fromEntries(formData.entries());
 
     try {
       const { error } = await supabase
         .from('contacts')
-        .insert([formData]);
+        .insert([{ name, email, message }]);
 
       if (error) throw error;
 
-      setStatus('success');
-      setFormData({ name: '', email: '', message: '' });
+      setStatus('Message sent successfully!');
+      e.target.reset();
     } catch (err) {
-      console.error('Supabase Error:', err);
-      setStatus('error');
+      console.error('Supabase error:', err.message);
+      setStatus('Something went wrong. Please try again.');
     }
   };
 
@@ -37,7 +31,7 @@ function Contact() {
     <div className="flex flex-col mb-10 mx-auto">
       <div className="flex justify-center items-center">
         <form
-          onSubmit={handleSubmit}
+          onSubmit={handleFormSubmit}
           className="flex flex-col w-full md:w-7/12"
         >
           <Title>Contact</Title>
@@ -46,8 +40,6 @@ function Contact() {
             type="text"
             name="name"
             placeholder="Name"
-            value={formData.name}
-            onChange={handleChange}
             className="p-2 bg-transparent border-2 rounded-md focus:outline-none"
             required
           />
@@ -56,8 +48,6 @@ function Contact() {
             type="email"
             name="email"
             placeholder="Email"
-            value={formData.email}
-            onChange={handleChange}
             className="my-2 p-2 bg-transparent border-2 rounded-md focus:outline-none"
             required
           />
@@ -66,26 +56,18 @@ function Contact() {
             name="message"
             placeholder="Message"
             rows="10"
-            value={formData.message}
-            onChange={handleChange}
             className="p-2 mb-4 bg-transparent border-2 rounded-md focus:outline-none"
             required
           />
 
           <button
             type="submit"
-            disabled={status === 'sending'}
             className="text-center inline-block px-8 py-3 w-max text-base font-medium rounded-md text-white bg-black drop-shadow-md hover:bg-black/60 transition-all"
           >
-            {status === 'sending' ? 'Sending...' : 'Contact Me 💬'}
+            Contact Me 💬
           </button>
 
-          {status === 'success' && (
-            <p className="mt-2 text-green-500">Message sent successfully!</p>
-          )}
-          {status === 'error' && (
-            <p className="mt-2 text-red-500">Something went wrong. Try again.</p>
-          )}
+          {status && <p className="mt-2 text-sm">{status}</p>}
         </form>
       </div>
     </div>
