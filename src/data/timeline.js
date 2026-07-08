@@ -1,8 +1,7 @@
 export default [
   {
-    year: 'Jun 2026 - Present',
+    year: 'Jun 2026',
     title: 'AI Customer Support Agent:',
-    duration: '1 month -',
     details:
       'Built a fully functional AI chatbot in Python using the Anthropic Claude API, featuring conversation memory, a guardrails layer, and a custom knowledge base in a modular OOP architecture.',
   },
